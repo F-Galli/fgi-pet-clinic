@@ -74,5 +74,12 @@
 		</plugins>
 	</build>
 
+	<repositories>
+		<repository>
+			<id>dsv-public</id>
+			<name>dsv-public</name> 
+			<url>http://10.1.101.251:8081/nexus/content/groups/public/</url> 
+		</repository>
+    </repositories>
 
 </project>
