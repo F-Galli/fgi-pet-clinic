@@ -4,7 +4,7 @@
   <parent>
     <groupId>fgi.springframework</groupId>
     <artifactId>fgi-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
   </parent>
   
   <artifactId>fgi-pet-clinic-web</artifactId>
@@ -19,7 +19,7 @@
 	<dependency>
 		<groupId>fgi.springframework</groupId>
 		<artifactId>fgi-pet-clinic-data</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.2-SNAPSHOT</version>
 	</dependency>
 	
 	<dependency>
