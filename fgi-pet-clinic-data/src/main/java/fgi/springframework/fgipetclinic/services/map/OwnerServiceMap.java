@@ -2,10 +2,13 @@ package fgi.springframework.fgipetclinic.services.map;
 
 import java.util.Set;
 
+import org.springframework.stereotype.Service;
+
 import fgi.springframework.fgipetclinic.model.Owner;
 import fgi.springframework.fgipetclinic.services.CrudService;
 import fgi.springframework.fgipetclinic.services.OwnerService;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 	public Set<Owner> findAll() {
