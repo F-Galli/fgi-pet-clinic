@@ -4,8 +4,9 @@ import java.util.Set;
 
 import fgi.springframework.fgipetclinic.model.Vet;
 import fgi.springframework.fgipetclinic.services.CrudService;
+import fgi.springframework.fgipetclinic.services.VetService;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
 	public Set<Vet> findAll() {
 		return super.findAll();
